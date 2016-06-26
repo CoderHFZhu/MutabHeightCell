@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14CC2AF71CFBE33800C38CCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CC2AF61CFBE33800C38CCB /* main.m */; };
+		14CC2AFA1CFBE33800C38CCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CC2AF91CFBE33800C38CCB /* AppDelegate.m */; };
+		14CC2AFD1CFBE33800C38CCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CC2AFC1CFBE33800C38CCB /* ViewController.m */; };
+		14CC2B001CFBE33800C38CCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CC2AFE1CFBE33800C38CCB /* Main.storyboard */; };
+		14CC2B021CFBE33800C38CCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14CC2B011CFBE33800C38CCB /* Assets.xcassets */; };
+		14CC2B051CFBE33800C38CCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14CC2B031CFBE33800C38CCB /* LaunchScreen.storyboard */; };
+		14CC2B0E1CFBE3E000C38CCB /* XMGMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CC2B0D1CFBE3E000C38CCB /* XMGMessage.m */; };
+		14CC2B121CFBE41D00C38CCB /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CC2B101CFBE41D00C38CCB /* TableViewCell.m */; };
+		14CC2B131CFBE41D00C38CCB /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14CC2B111CFBE41D00C38CCB /* TableViewCell.xib */; };
+		14CC2B151CFBE76500C38CCB /* messages.plist in Resources */ = {isa = PBXBuildFile; fileRef = 14CC2B141CFBE76500C38CCB /* messages.plist */; };
+		14CC2B231CFC30DE00C38CCB /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CC2B211CFC30DE00C38CCB /* ViewController1.m */; };
+		14CC2B241CFC30DE00C38CCB /* ViewController1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14CC2B221CFC30DE00C38CCB /* ViewController1.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14CC2AF21CFBE33800C38CCB /* MutabCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MutabCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14CC2AF61CFBE33800C38CCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14CC2AF81CFBE33800C38CCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		14CC2AF91CFBE33800C38CCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		14CC2AFB1CFBE33800C38CCB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		14CC2AFC1CFBE33800C38CCB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		14CC2AFF1CFBE33800C38CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14CC2B011CFBE33800C38CCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14CC2B041CFBE33800C38CCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14CC2B061CFBE33800C38CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14CC2B0C1CFBE3E000C38CCB /* XMGMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGMessage.h; sourceTree = "<group>"; };
+		14CC2B0D1CFBE3E000C38CCB /* XMGMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGMessage.m; sourceTree = "<group>"; };
+		14CC2B0F1CFBE41D00C38CCB /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		14CC2B101CFBE41D00C38CCB /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		14CC2B111CFBE41D00C38CCB /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		14CC2B141CFBE76500C38CCB /* messages.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = messages.plist; sourceTree = "<group>"; };
+		14CC2B201CFC30DE00C38CCB /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		14CC2B211CFC30DE00C38CCB /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
+		14CC2B221CFC30DE00C38CCB /* ViewController1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController1.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14CC2AEF1CFBE33800C38CCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14CC2AE91CFBE33800C38CCB = {
+			isa = PBXGroup;
+			children = (
+				14CC2AF41CFBE33800C38CCB /* MutabCell */,
+				14CC2AF31CFBE33800C38CCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14CC2AF31CFBE33800C38CCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14CC2AF21CFBE33800C38CCB /* MutabCell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14CC2AF41CFBE33800C38CCB /* MutabCell */ = {
+			isa = PBXGroup;
+			children = (
+				14CC2AF81CFBE33800C38CCB /* AppDelegate.h */,
+				14CC2AF91CFBE33800C38CCB /* AppDelegate.m */,
+				14CC2B0C1CFBE3E000C38CCB /* XMGMessage.h */,
+				14CC2B0D1CFBE3E000C38CCB /* XMGMessage.m */,
+				14CC2AFB1CFBE33800C38CCB /* ViewController.h */,
+				14CC2AFC1CFBE33800C38CCB /* ViewController.m */,
+				14CC2B0F1CFBE41D00C38CCB /* TableViewCell.h */,
+				14CC2B101CFBE41D00C38CCB /* TableViewCell.m */,
+				14CC2B111CFBE41D00C38CCB /* TableViewCell.xib */,
+				14CC2B201CFC30DE00C38CCB /* ViewController1.h */,
+				14CC2B211CFC30DE00C38CCB /* ViewController1.m */,
+				14CC2B221CFC30DE00C38CCB /* ViewController1.xib */,
+				14CC2AFE1CFBE33800C38CCB /* Main.storyboard */,
+				14CC2B011CFBE33800C38CCB /* Assets.xcassets */,
+				14CC2B031CFBE33800C38CCB /* LaunchScreen.storyboard */,
+				14CC2B061CFBE33800C38CCB /* Info.plist */,
+				14CC2B141CFBE76500C38CCB /* messages.plist */,
+				14CC2AF51CFBE33800C38CCB /* Supporting Files */,
+			);
+			path = MutabCell;
+			sourceTree = "<group>";
+		};
+		14CC2AF51CFBE33800C38CCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14CC2AF61CFBE33800C38CCB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14CC2AF11CFBE33800C38CCB /* MutabCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14CC2B091CFBE33800C38CCB /* Build configuration list for PBXNativeTarget "MutabCell" */;
+			buildPhases = (
+				14CC2AEE1CFBE33800C38CCB /* Sources */,
+				14CC2AEF1CFBE33800C38CCB /* Frameworks */,
+				14CC2AF01CFBE33800C38CCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MutabCell;
+			productName = MutabCell;
+			productReference = 14CC2AF21CFBE33800C38CCB /* MutabCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14CC2AEA1CFBE33800C38CCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ZACK;
+				TargetAttributes = {
+					14CC2AF11CFBE33800C38CCB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 14CC2AED1CFBE33800C38CCB /* Build configuration list for PBXProject "MutabCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14CC2AE91CFBE33800C38CCB;
+			productRefGroup = 14CC2AF31CFBE33800C38CCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14CC2AF11CFBE33800C38CCB /* MutabCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14CC2AF01CFBE33800C38CCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CC2B241CFC30DE00C38CCB /* ViewController1.xib in Resources */,
+				14CC2B051CFBE33800C38CCB /* LaunchScreen.storyboard in Resources */,
+				14CC2B131CFBE41D00C38CCB /* TableViewCell.xib in Resources */,
+				14CC2B151CFBE76500C38CCB /* messages.plist in Resources */,
+				14CC2B021CFBE33800C38CCB /* Assets.xcassets in Resources */,
+				14CC2B001CFBE33800C38CCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14CC2AEE1CFBE33800C38CCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14CC2B0E1CFBE3E000C38CCB /* XMGMessage.m in Sources */,
+				14CC2AFD1CFBE33800C38CCB /* ViewController.m in Sources */,
+				14CC2B231CFC30DE00C38CCB /* ViewController1.m in Sources */,
+				14CC2AFA1CFBE33800C38CCB /* AppDelegate.m in Sources */,
+				14CC2B121CFBE41D00C38CCB /* TableViewCell.m in Sources */,
+				14CC2AF71CFBE33800C38CCB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14CC2AFE1CFBE33800C38CCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14CC2AFF1CFBE33800C38CCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14CC2B031CFBE33800C38CCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14CC2B041CFBE33800C38CCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14CC2B071CFBE33800C38CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14CC2B081CFBE33800C38CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14CC2B0A1CFBE33800C38CCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MutabCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MutabCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		14CC2B0B1CFBE33800C38CCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MutabCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MutabCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14CC2AED1CFBE33800C38CCB /* Build configuration list for PBXProject "MutabCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CC2B071CFBE33800C38CCB /* Debug */,
+				14CC2B081CFBE33800C38CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14CC2B091CFBE33800C38CCB /* Build configuration list for PBXNativeTarget "MutabCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14CC2B0A1CFBE33800C38CCB /* Debug */,
+				14CC2B0B1CFBE33800C38CCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14CC2AEA1CFBE33800C38CCB /* Project object */;
+}
