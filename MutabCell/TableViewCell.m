@@ -60,10 +60,7 @@
     [self layoutIfNeeded];
 
 }
-//-(void)layoutIfNeeded {
-//    NSLog(@"%s,line num = %d \n %@",__func__,__LINE__,NSStringFromCGRect(self.lab.frame));
-//
-//}
+
 -(void)layoutSubviews{
     [super layoutSubviews];
 
